@@ -7,8 +7,7 @@ I have performed data augmentation using "torchvision.transforms" library. In th
 1) I first started by building a custom **VGG-16** Network with 13 Convolution Layers and a classifier Network.  <br />
 2) I used the **EfficientNetB0** Model trained on 1 million+ images from ImageNet Dataset and finetuned it on our data.  <br />
 3) Lastly I applied transfer learning on the pretrained **ResNet50 Model** <br />
- <br />
- ### Results:
+ ### Results:  <br />
  Test Accuracy :  <br />
  1) VGG-16: 49%  <br />
  2) EfficientNetB0 : 79%  <br />
